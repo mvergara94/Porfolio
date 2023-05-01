@@ -1,0 +1,231 @@
+.intro {
+  margin: 7rem 7.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto 0.5fr;
+  grid-template-areas:
+    'about image'
+    'blank blank'
+    'start actual';
+  column-gap: 50px;
+}
+
+/*  Sobre mim */
+
+.intro__about-me {
+  grid-area: about;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.intro__about-me h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+
+.intro__about-me h1 span {
+  background-color: var(--terciary-color);
+  display: inline-block;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  transform: rotate(-4deg);
+}
+
+.intro__about-me p {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  line-height: 2.75rem;
+}
+
+.intro__about-me div {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro__about-me div a {
+  margin: 0 2rem;
+  fill: var(--terciary-color);
+  background-color: var(--background-color);
+}
+
+.intro__about-me div a:hover {
+  fill: var(--primary-color);
+}
+
+.intro__about-me div a svg {
+  width: 50px;
+}
+
+/*  Imagem Intro */
+
+.intro__image {
+  grid-area: image;
+  justify-self: center;
+  max-width: 75%;
+}
+
+/* Linha intro */
+
+.intro hr {
+  grid-area: blank;
+  border: none;
+  border-top: 1px solid var(--terciary-color);
+  width: 100%;
+  margin: 0 0 3rem 0;
+  padding: 0;
+}
+
+/* Como começou */
+
+.intro__history-beginning {
+  display: flex;
+  flex-direction: column;
+  grid-area: start;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.intro__history-beginning h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.intro__history-beginning p {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  text-align: justify;
+}
+
+.intro__history-beginning a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+  background-color: var(--terciary-color);
+  border-radius: 4px;
+  padding: 15px 0 15px 20px;
+  position: relative;
+}
+
+/* Como esta */
+
+.intro__actual {
+  grid-area: actual;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  /* grid-area: actual; */
+}
+
+.intro__actual h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.intro__actual p {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  text-align: justify;
+}
+
+.intro__actual ul {
+  display: flex;
+  gap: 60px;
+  animation: scroll-left 9s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.intro__actual li {
+  fill: var(--terciary-color);
+  display: inline-block;
+}
+
+.intro__actual li svg {
+  width: 50px;
+}
+
+@media (max-width: 1465px) {
+  .intro {
+    row-gap: 50px;
+  }
+
+  .intro__about-me {
+    gap: 20px;
+  }
+
+  .intro hr {
+    display: none;
+  }
+}
+
+@media (max-width: 1188px) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-areas:
+      'image image'
+      'about about'
+      'start actual';
+  }
+
+  .intro__image {
+    max-width: 275px;
+  }
+}
+
+@media (max-width: 820px) {
+  .intro {
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    grid-template-areas:
+      'image image'
+      'about about'
+      'start start'
+      'actual actual';
+    margin: 6rem 3.5rem;
+  }
+}
+
+@media (max-width: 535px) {
+  .intro {
+    margin: 3rem 1rem;
+  }
+
+  .intro__about-me h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .intro__about-me p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: justify;
+  }
+
+  .intro__about-me div {
+    flex-wrap: wrap;
+  }
+  .intro__about-me div a {
+    flex-basis: 105px;
+    flex-grow: 1;
+    padding-top: 1rem;
+  }
+
+  .intro__image {
+    align-self: flex-end;
+  }
+}
