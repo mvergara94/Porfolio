@@ -1,8 +1,8 @@
-// SWIPER JS
-if (document.title !== 'MV | Curriculum') {
-  const swiper = new Swiper('.swiper', {
-    slidesPerView: 1.3,
+const swiperContainer = document.querySelector('.swiper');
 
+if (document.title !== 'MV | Curriculum') {
+  const swiper = new Swiper(swiperContainer, {
+    slidesPerView: 1.3,
     spaceBetween: 10,
     loop: true,
     pagination: {
@@ -16,7 +16,6 @@ if (document.title !== 'MV | Curriculum') {
     breakpoints: {
       690: {
         slidesPerView: 2.5,
-
         spaceBetween: 20,
       },
       1300: {
@@ -25,7 +24,6 @@ if (document.title !== 'MV | Curriculum') {
     },
   });
 }
-
 // Função para rolagem suave
 const rolagemSuave = (alvo, duracao) => {
   // Seleciona o elemento alvo da rolagem
