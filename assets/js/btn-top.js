@@ -4,10 +4,12 @@ window.addEventListener('scroll', () => {
   const posicao = window.scrollY + window.innerHeight;
   const metadePagina = document.body.offsetHeight / 2;
 
-  if (posicao > metadePagina) {
-    botaoTopo.style.display = 'block';
-  } else {
-    botaoTopo.style.display = 'none';
+  if (screen.width > 820) {
+    if (posicao > metadePagina) {
+      botaoTopo.style.display = 'block';
+    } else {
+      botaoTopo.style.display = 'none';
+    }
   }
 });
 
@@ -20,3 +22,5 @@ function subirTopo() {
     });
   });
 }
+
+subirTopo();
