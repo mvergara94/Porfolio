@@ -15,7 +15,6 @@ window.addEventListener('scroll', () => {
 
 function subirTopo() {
   botaoTopo.addEventListener('click', () => {
-    console.log('clicou');
     window.scrollTo({
       top: 0,
       behavior: 'smooth',

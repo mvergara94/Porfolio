@@ -28,6 +28,7 @@ Utilizei de inspiração para o Portfolio o design do [EJHAY](<https://www.figma
 - Avaliar e corrigir problemas de acessibilidade :red_circle:
 - Refatorar o código para melhor legibilidade :red_circle:
 - Arrumar a animação da Seção "Um Dev em formação" para algumas resoluções :red_circle:
+- Colocar a tag meta description nos meus html's :red_circle:
 
 ## Links
 
