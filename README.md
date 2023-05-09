@@ -2,7 +2,7 @@
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-<img src="http://img.shields.io/static/v1?label=VERSAO&message=1.0&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=VERSAO&message=1.1&color=GREEN&style=for-the-badge"/>
 </p>
 
 <img src="https://i.imgur.com/KYXoZAM.png" alt='Foto da tela inicial' />
@@ -21,12 +21,12 @@ Utilizei de inspiração para o Portfolio o design do [EJHAY](<https://www.figma
 - Carrossel de Links e Projetos (Swipe JS) :heavy_check_mark:
 - Ajuste da pagina de CV com @media print correto :heavy_check_mark:
 - Terminar de incluir meus projetos :heavy_check_mark:
+- Botão de voltar ao início da pagina :heavy_check_mark:
 
 ### Próximas Etapas
 
 - Avaliar e corrigir problemas de acessibilidade :red_circle:
 - Refatorar o código para melhor legibilidade :red_circle:
-- Botão de voltar ao início da pagina :red_circle:
 - Arrumar a animação da Seção "Um Dev em formação" para algumas resoluções :red_circle:
 
 ## Links
