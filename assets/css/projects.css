@@ -77,10 +77,12 @@
 .swiper-button-prev,
 .swiper-button-next {
   background-color: var(--terciary-color);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 50%;
   color: var(--primary-color);
   box-shadow: 0px 0px 1px 2px var(--secondary-color);
+  --swiper-navigation-size: 24px;
+  opacity: 0.7;
 }
 
 .swiper-pagination {

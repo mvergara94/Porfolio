@@ -78,4 +78,3 @@ linksRolagemSuave.forEach(link => {
     rolagemSuave(alvo, duracaoAnimacao);
   });
 });
-
