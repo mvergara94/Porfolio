@@ -11,6 +11,8 @@
 
 Primeiro porfólio que faço que o resultado saiu minimamente aceitável dentro do que eu acredito ser correto, tentei focar muito em responsividade e não utilizei o aproach 'mobile-first' devido ao design que serviu de inspiração para o meu ter sido feito para uma tela maior. Mesmo assim acredito que com relação a responsividade o resultado está legal.
 
+
+<img src="https://i.imgur.com/n4kruTr.png" alt="avaliação da extensão lighthouse sobre meu portfolio>
 ### Processo
 
 Utilizei de inspiração para o Portfolio o design do [EJHAY](<https://www.figma.com/file/an9UXj2qGmKnHUTZ9hvw5W/Web-Portfolio---Idea-(Community)?node-id=0-1&t=TzyBZ9Cxu7pBGKt2-0>). Em um primeiro momento repliquei o que ele fez e a partir dai fui fazendo as modificações que eu queria. Pedi para um [colega](https://www.instagram.com/mateussochagas/) fazer a arte da coruja para mim, caso alguem se interesse. A partir desse design maior fui fazendo as media-queries para ajustar as responsividade. Usei alguns content-driven breakpoints para pequenos ajustes no meu layout.
@@ -21,7 +23,7 @@ Utilizei de inspiração para o Portfolio o design do [EJHAY](<https://www.figma
 - Carrossel de Links e Projetos (Swipe JS) :heavy_check_mark:
 - Ajuste da pagina de CV com @media print correto :heavy_check_mark:
 - Terminar de incluir meus projetos :heavy_check_mark:
-- Botão de voltar ao início da pagina
+- Botão de voltar ao início da pagina :heavy_check_mark:
 - Arrumar a animação da Seção "Um Dev em formação" para algumas resoluções :heavy_check_mark:
 
 ### Próximas Etapas
