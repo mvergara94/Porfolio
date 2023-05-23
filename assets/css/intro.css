@@ -138,6 +138,7 @@
   display: flex;
   gap: 60px;
   animation: scroll-left 9s linear infinite;
+  /* width: fit-content; */
 }
 
 @keyframes scroll-left {
@@ -145,7 +146,7 @@
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-160%);
   }
 }
 

@@ -21,14 +21,15 @@ Utilizei de inspiração para o Portfolio o design do [EJHAY](<https://www.figma
 - Carrossel de Links e Projetos (Swipe JS) :heavy_check_mark:
 - Ajuste da pagina de CV com @media print correto :heavy_check_mark:
 - Terminar de incluir meus projetos :heavy_check_mark:
-- Botão de voltar ao início da pagina :heavy_check_mark:
+- Botão de voltar ao início da pagina
+- Arrumar a animação da Seção "Um Dev em formação" para algumas resoluções :heavy_check_mark:
 
 ### Próximas Etapas
 
 - Avaliar e corrigir problemas de acessibilidade :red_circle:
 - Refatorar o código para melhor legibilidade :red_circle:
-- Arrumar a animação da Seção "Um Dev em formação" para algumas resoluções :red_circle:
 - Colocar a tag meta description nos meus html's :red_circle:
+- Criar seção de destaque na paginal principal :red_circle:
 
 ## Links
 
